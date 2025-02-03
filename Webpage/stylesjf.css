@@ -1,0 +1,107 @@
+/* 
+   Author: James Furlough   
+   Date: 3/27/2024      
+ */
+
+/* reset styles */
+html {
+   font-size: 16px;
+}
+a, article, body, div, footer, header, h1, h3, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/* page container */
+body {
+   margin: 0 auto;
+   background: #363636;
+   color: rgb(0,175,255)
+}
+p {
+   font-size: 1.45em;
+   line-height: 1.3em;
+}
+
+/* header */
+header {
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+}
+header h1 {
+	font-size: 46pt;
+	font-weight: bold;
+}
+header h3{
+	font-size: 20pt;
+}
+
+/* main text */
+article {
+   margin: 0 auto;
+   padding: 1.4em;
+   background: rgb(0,175,255);
+   max-width: 750px;
+   font-family: Tomaha, "Times New Roman";
+}
+article div {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 0 3% 1em;
+   background-color: #363636;
+   overflow: auto;
+}
+article a {
+	color: white;
+}
+
+#conclusion {
+	margin-top: 23em;
+	padding-top: 9em;
+}
+.asideleft {
+	margin-top: 2em;
+	max-width: 100%;
+	float: left;
+	position: relative;
+}
+.asideright {
+	margin-top: 2em;
+	max-width: 100%;
+	float: right;
+	position: relative;
+}
+p.asideleft {
+	max-width: 25%;
+}
+p.asideright {
+	max-width: 25%;
+}
+
+/* footer */
+footer {
+	margin:  auto;
+	text-align: center;
+	max-width: 795px;
+	background:rgb(0,175,255);
+	color:#363636;
+}
+
+
+/* print styles */
+@media print {
+   body, h1, article, footer {
+      color: rgb(0,0,0);
+      background: rgb(255,255,255);
+   }
+   body {
+      max-width: 100%;
+   }
+   nav {
+      display: none;
+   }
+}
+@page {
+   margin: 0.75in;
+}
